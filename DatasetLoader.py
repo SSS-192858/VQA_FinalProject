@@ -1,7 +1,7 @@
 # Ensure required libraries are installed
 # !pip install datasets pandas  # Uncomment this line if you're in a Jupyter notebook
 
-from VQA_FinalProject.VQAv2.VQAv2 import VQAv2Dataset  # Import the custom dataset class
+from VQAv2 import VQAv2Dataset  # Import the custom dataset class
 # Import necessary modules
 import datasets
 import json

@@ -1,2 +1,8 @@
 Images_train
 drive_download
+*.csv
+*.json
+Subset_train2014
+*.jpg
+*.txt
+*.zip
