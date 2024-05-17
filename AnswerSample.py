@@ -13,7 +13,7 @@ def extract_image_id(filename):
     return int(filename.split('_')[-1].split('.')[0].lstrip('0'))
 
 # Read the question dataset from the JSON file
-answers_dataset_path = "./drive_download/v2_mscoco_train2014_annotations.json"
+answers_dataset_path = "./v2_mscoco_train2014_annotations.json"
 answers = read_question_dataset(answers_dataset_path)
 # print(questions.keys())
 
@@ -45,7 +45,7 @@ def create_questions_answers_dict(data, ans_final):
                     print(question_number)
                     questions_answers_dict[int(question_id)] = ans['answers']
                     break
-        break
+        # break
     return questions_answers_dict
 
 def write_json_file(output_file, data):
@@ -53,7 +53,7 @@ def write_json_file(output_file, data):
         json.dump(data, file, indent=4)
 
 # Read the data from the JSON file
-file_path = "./drive_download/Questions/Subset_train2014/output_image_questions.json"  # Update with the actual file path
+file_path = "./output_image_questions.json"  # Update with the actual file path
 data = read_question_data(file_path)
 
 # Match question IDs with corresponding answers
