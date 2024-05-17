@@ -1,0 +1,32 @@
+\begin{table*}[htbp]
+\caption{Without CoTRM - training ViT and BERT with LoRA}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Epoch}&\multicolumn{8}{|c|}{\textbf{Metrics}} \\
+\cline{2-9} 
+\textbf{Number} & \textbf{\textit{Train Accuracy}}& \textbf{\textit{Train Precision}}& \textbf{\textit{Train Recall}} & \textbf{\textit{Train F1 Score}} & \textbf{\textit{Val Accuracy}} & \textbf{\textit{Val Precision}} & \textbf{\textit{Val Recall}} & \textbf{\textit{Val F1 Score}} \\ 
+\hline1 & 18.020833 & 0.077603 & 0.180208 & 0.107664 & 21.25 & 0.092962 & 0.2125 & 0.127713 \\
+\hline
+2 & 20.104167 & 0.159917 & 0.201042 & 0.176013 & 20.3125 & 0.186664 & 0.203125 & 0.130954 \\
+\hline
+3 & 20.729167 & 0.181385 & 0.207292 & 0.188151 & 21.875 & 0.105829 & 0.21875 & 0.140157 \\
+\hline
+4 & 23.229167 & 0.214222 & 0.232292 & 0.216501 & 21.770833 & 0.089566 & 0.217708 & 0.12235 \\
+\hline
+5 & 23.333333 & 0.214223 & 0.233333 & 0.217413 & 21.979167 & 0.098065 & 0.219792 & 0.132185 \\
+\hline
+6 & 23.541667 & 0.201018 & 0.235417 & 0.209058 & 24.479167 & 0.10608 & 0.244792 & 0.145348 \\
+\hline
+7 & 22.395833 & 0.198244 & 0.223958 & 0.200775 & 21.5625 & 0.184398 & 0.215625 & 0.133054 \\
+\hline
+8 & 24.479167 & 0.210791 & 0.244792 & 0.218261 & 23.645833 & 0.110136 & 0.236458 & 0.147805 \\
+\hline
+9 & 25.0 & 0.221004 & 0.25 & 0.225418 & 24.375 & 0.109099 & 0.24375 & 0.148666 \\
+\hline
+10 & 22.291667 & 0.206925 & 0.222917 & 0.203265 & 26.5625 & 0.131002 & 0.265625 & 0.171796 \\
+\hline
+\end{tabular}
+\label{tab8}
+\end{center}
+\end{table*}

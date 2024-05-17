@@ -1,0 +1,9 @@
+\begin{table*}[htbp]
+\caption{With CoTRM - training ViT and BERT with LoRA}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Epoch}&\multicolumn{8}{|c|}{\textbf{Metrics}} \\
+\cline{2-9} 
+\textbf{Number} & \textbf{\textit{Train Accuracy}}& \textbf{\textit{Train Precision}}& \textbf{\textit{Train Recall}} & \textbf{\textit{Train F1 Score}} & \textbf{\textit{Val Accuracy}} & \textbf{\textit{Val Precision}} & \textbf{\textit{Val Recall}} & \textbf{\textit{Val F1 Score}} \\ 
+\hline

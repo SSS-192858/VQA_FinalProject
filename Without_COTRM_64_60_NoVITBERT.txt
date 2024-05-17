@@ -1,0 +1,18 @@
+Epoch 1/10, Train Loss: 0.3162103780065361, Train Accuracy: 17.239583333333332%
+Validation Loss: 0.9903693294253444, Validation Accuracy: 19.427083333333332%
+Epoch 2/10, Train Loss: 0.2442166089841662, Train Accuracy: 18.229166666666664%
+Validation Loss: 0.91478861566962, Validation Accuracy: 19.140625%
+Epoch 3/10, Train Loss: 0.23115949467599858, Train Accuracy: 19.322916666666668%
+Validation Loss: 0.8720462369782972, Validation Accuracy: 19.088541666666668%
+Epoch 4/10, Train Loss: 0.22034202298349936, Train Accuracy: 18.880208333333336%
+Validation Loss: 0.877330227115555, Validation Accuracy: 18.541666666666668%
+Epoch 5/10, Train Loss: 0.22358220114677357, Train Accuracy: 18.932291666666668%
+Validation Loss: 0.8495136095248057, Validation Accuracy: 19.6875%
+Epoch 6/10, Train Loss: 0.2162679242645938, Train Accuracy: 18.776041666666668%
+Validation Loss: 0.8537403334919204, Validation Accuracy: 18.307291666666668%
+Epoch 7/10, Train Loss: 0.21700588805456292, Train Accuracy: 18.359375%
+Validation Loss: 0.8560585826210826, Validation Accuracy: 18.932291666666668%
+Epoch 8/10, Train Loss: 0.21757947115582055, Train Accuracy: 18.880208333333336%
+Validation Loss: 0.8450500129634498, Validation Accuracy: 19.635416666666668%
+
+Train Time - 7 hr 30 min for 8 Epochs
